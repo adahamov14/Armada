@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+}
+
+/* .grid_container{
+    padding: 10px;
+    height: 100vh;
+    display: grid;
+    /* grid-template-columns: repeat(10, 1fr); */
+/* grid-template-rows: 2fr 4fr 5fr;
+    grid-gap: 10px;
+    border: 3px solid red; */
+
+/* }
+.box{
+    border: 2px solid white;
+} */
+.block {
+    height: 100vh;
+    border: 3px solid white;
+    gap: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-areas:
+    'a1 a1 a2'
+    'a3 a5 a2'
+    'a3 a4 a4'
+    ;
+}
+
+.box{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.box1{
+    grid-area: a1;
+    border: 1px solid rgb(85, 0, 255);
+background-image: url('https://images.squarespace-cdn.com/content/v1/5e90513ca74b5254da14cca1/1633220789736-8VI8FTX5EFLTMDFWOXBD/image-asset.jpeg');
+}
+.box2{
+    grid-area: a2;
+    border: 1px solid rgb(255, 0, 195);
+background-image: url('https://img.freepik.com/free-photo/beautiful-butterfly-in-nature_23-2150445580.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1707955200&semt=sph');
+}
+.box3{
+    grid-area: a3;
+    border: 1px solid rgb(204, 255, 0);
+background-image: url('https://cdn.pixabay.com/photo/2019/07/25/05/32/animal-4361698_640.jpg');
+}
+.box4{
+    grid-area: a4;
+    border: 1px solid red;
+background-image: url('https://skillbox.ru/upload/setka_images/10292018042023_178ae943fb180dbd85da113c997e71d410f43eb6.jpg');
+}
+.box5{
+    grid-area: a5;
+    border: 1px solid rgb(42, 28, 28);
+background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230527/pngtree-black-panther-is-looking-straight-into-the-sun-image_2700987.jpg');
+display: grid;
+grid-template-areas:
+'a1 a1 a2'
+'a3 a5 a2'
+'a3 a4 a4'
+;
+}
+.r1{
+    grid-area: a5;
+    border: 1px solid rgb(42, 28, 28);
+background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230527/pngtree-black-panther-is-looking-straight-into-the-sun-image_2700987.jpg');
+display: grid;
+}
+.r{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.r2{
+    grid-area: a1;
+    border: 1px solid rgb(85, 0, 255);
+background-image: url('https://images.squarespace-cdn.com/content/v1/5e90513ca74b5254da14cca1/1633220789736-8VI8FTX5EFLTMDFWOXBD/image-asset.jpeg');
+}
+
+.r3{
+
+        grid-area: a2;
+        border: 1px solid rgb(255, 0, 195);
+    background-image: url('https://img.freepik.com/free-photo/beautiful-butterfly-in-nature_23-2150445580.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1707955200&semt=sph');
+    
+}
+.r4{
+    grid-area: a3;
+    border: 1px solid rgb(204, 255, 0);
+background-image: url('https://cdn.pixabay.com/photo/2019/07/25/05/32/animal-4361698_640.jpg');
+}
+.r5{
+    grid-area: a4;
+    border: 1px solid red;
+background-image: url('https://skillbox.ru/upload/setka_images/10292018042023_178ae943fb180dbd85da113c997e71d410f43eb6.jpg');
+}
+
